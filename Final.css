@@ -1,0 +1,105 @@
+
+/* Main Section Styling */
+section {
+    text-align: left;
+    padding: 40px;
+    max-width: 900px;
+    margin-top: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #f39c12;
+    text-align: center;
+}
+
+section h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #f39c12;
+}
+
+/* About Me Section */
+.about-me {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 40px;
+    margin-top: 30px;
+    border-radius: 10px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-me h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #f39c12;
+}
+
+.about-me p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.about-me strong {
+    color: #f39c12;
+}
+
+.about-me ul {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.about-me ul li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+.about-me h3 {
+    font-size: 1.8rem;
+    margin-top: 20px;
+    text-align: center;
+    color: #f39c12;
+}
+
+/* Media Query for mobile responsiveness */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    section {
+        padding: 20px;
+    }
+
+    section h2 {
+        font-size: 2rem;
+    }
+
+    section h3 {
+        font-size: 1.5rem;
+    }
+
+    .profile-img {
+        width: 150px;
+        height: 150px;
+    }
+
+    table {
+        font-size: 0.9rem;
+    }
+}
